@@ -1,60 +1,79 @@
-🚀 I built a Custom AI Agent Skill for a Hospital Management System
+🚀 AI Agent Skill for Hospital Management System
+🧠 Overview
 
-Most people use AI as a chatbot.
+This project demonstrates a custom AI Agent Skill designed for a Hospital Management System (HIMS).
 
-I explored something deeper.
+Instead of using AI as a generic chatbot, this project focuses on controlling LLM behavior through structured instructions, workflows, and domain-specific rules.
 
-👉 I designed an **AI Agent Skill** that teaches an LLM how to behave like a hospital assistant.
+💡 Key Idea
 
----
+Most AI applications rely on open-ended prompts.
 
-💡 What this means:
+This project takes a different approach:
 
-Instead of giving random answers, the AI:
+👉 It teaches the AI how to behave using a defined skill.
 
-✔ Follows real hospital workflows
-✔ Understands patient registration, billing, and appointments
-✔ Responds in structured, step-by-step format
-✔ Avoids hallucination by using defined rules
+⚙️ What the Agent Skill Does
 
----
+The AI is designed to:
 
-🧠 How I built it:
+✔ Follow real hospital workflows
+✔ Understand patient registration, billing, and appointments
+✔ Respond in structured, step-by-step format
+✔ Avoid hallucinations using predefined rules
+✔ Maintain domain-specific consistency
+🧠 Skill Design Approach
 
-• Designed a custom `SKILL.md` file
-• Defined workflows (registration, billing, appointments)
-• Added behavior rules (no diagnosis, structured responses)
-• Integrated with Gemini CLI for testing
+The Agent Skill is implemented using a SKILL.md file that defines:
 
----
+🔹 Project Context
+Hospital Management System (HIMS)
+🔹 Workflow Logic
+Patient Registration
+Appointment Booking
+Billing Process
+🔹 Behavior Rules
+No medical diagnosis
+Structured responses
+Simple and clear explanations
+Real-world workflow adherence
+🏗️ Skill Structure
+.agents/
+ └── skills/
+      └── hospital-assistant/
+           └── SKILL.md
+⚙️ Example Capability
+Input
+How does patient registration work?
+Output
+1. Check if patient exists  
+2. Create a new patient ID if not found  
+3. Store patient details  
+4. Proceed to appointment booking  
+🧪 Testing
 
-⚙️ Example capability:
+The skill is tested using Gemini CLI, which reads the SKILL.md file and applies the defined rules and workflows during interaction.
 
-User: “How does patient registration work?”
-
-AI Response:
-
-1. Check if patient exists
-2. Create patient ID
-3. Store details
-4. Proceed to appointment
-
----
-
-🎯 Key Learning:
+🎯 Key Learning
 
 AI is not just about prompts.
+It’s about designing behavior, rules, and workflows.
 
-It’s about **designing behavior, rules, and workflows**.
+This project highlights:
 
----
+Agent Skill Design
+Prompt Engineering
+Workflow Modeling
+Controlled AI Behavior
+🚀 Future Improvements
+Connect skill with real-time database
+Enable tool-calling (AI performs actions)
+Build multi-agent architecture
+Integrate into full production systems
+🧩 Tech Stack
+Google Gemini API
+Gemini CLI
+Markdown-based Skill Definition (SKILL.md)
+📌 Summary
 
-🚀 Next:
-
-• Connect skills to real-time data
-• Build multi-agent systems
-• Integrate with production apps
-
----
-
-#AI #AgentSkills #GenerativeAI #PromptEngineering #LLM #AIEngineering
+This project demonstrates how to transform an LLM from a generic chatbot into a domain-specific intelligent agent using structured skill design.
