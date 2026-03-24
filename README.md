@@ -1,6 +1,4 @@
-Perfect 👍 — here is a **clean, structured, copy-paste-ready GitHub README** (no extra formatting issues, fully professional)
 
----
 
 # 🚀 AI Agent Skill for Hospital Management System
 
@@ -154,22 +152,7 @@ This project demonstrates:
 * Google Gemini API
 * Gemini CLI
 * Markdown-based Skill Definition (`SKILL.md`)
-* Python (Streamlit - optional integration)
 
 ---
 
-## 📌 Summary
 
-This project transforms an LLM from a **generic chatbot** into a **domain-specific intelligent agent** using structured skill design.
-
----
-
-## 🔥 Keywords
-
-AI Agents, Agent Skills, Prompt Engineering, LLM Control, Workflow Automation, Generative AI
-
----
-
-If you want next upgrade:
-
-👉 I can add **architecture diagram + system design section (very powerful for recruiters)**
